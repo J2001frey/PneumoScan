@@ -1,0 +1,71 @@
+{
+  "custom_cnn_weighted_ce": {
+    "model": "custom_cnn",
+    "loss": "weighted_ce",
+    "accuracy": 0.8012820512820513,
+    "precision": 0.7638888888888888,
+    "recall_sensitivity": 0.9871794871794872,
+    "specificity": 0.49145299145299143,
+    "f1": 0.8612975391498882,
+    "roc_auc": 0.9480714442252903,
+    "confusion_matrix": [
+      [
+        115,
+        119
+      ],
+      [
+        5,
+        385
+      ]
+    ],
+    "ms_per_image": 28.293673488776268,
+    "parameters_millions": 0.38941,
+    "file_size_mb": 1.571509
+  },
+  "mobilenetv2_weighted_ce": {
+    "model": "mobilenetv2",
+    "loss": "weighted_ce",
+    "accuracy": 0.9310897435897436,
+    "precision": 0.9044289044289044,
+    "recall_sensitivity": 0.9948717948717949,
+    "specificity": 0.8247863247863247,
+    "f1": 0.9474969474969475,
+    "roc_auc": 0.9841989918912997,
+    "confusion_matrix": [
+      [
+        193,
+        41
+      ],
+      [
+        2,
+        388
+      ]
+    ],
+    "ms_per_image": 31.372084469542944,
+    "parameters_millions": 2.226434,
+    "file_size_mb": 9.151006
+  },
+  "resnet50_weighted_ce": {
+    "model": "resnet50",
+    "loss": "weighted_ce",
+    "accuracy": 0.8958333333333334,
+    "precision": 0.8635346756152126,
+    "recall_sensitivity": 0.9897435897435898,
+    "specificity": 0.7393162393162394,
+    "f1": 0.9223416965352449,
+    "roc_auc": 0.9811856234933157,
+    "confusion_matrix": [
+      [
+        173,
+        61
+      ],
+      [
+        4,
+        386
+      ]
+    ],
+    "ms_per_image": 71.49183115545955,
+    "parameters_millions": 23.51213,
+    "file_size_mb": 94.371021
+  }
+}
