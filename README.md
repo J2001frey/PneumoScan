@@ -48,6 +48,8 @@ pneumoscan/
 
 Kermany et al. (2018), *Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images for Classification*, Mendeley Data, DOI: 10.17632/rscbjbr9sj.2. It contains 5,856 pediatric chest X-rays (NORMAL and PNEUMONIA).
 
+https://data.mendeley.com/datasets/rscbjbr9sj/2
+
 The dataset is not included in this repository. Download it and place it in `backend/data/` so that it contains `train/` and `test/` folders, each with `NORMAL/` and `PNEUMONIA/` subfolders.
 
 ## Setup
